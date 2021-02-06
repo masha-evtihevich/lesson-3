@@ -8,9 +8,7 @@
     text-align: center;
     font-family: 'Open Sans', sans-serif;
 }
-/* .aside {
-    Class is missing 
-} */
+/* <header>*/
 .title {
     margin-bottom: 30px;
     padding-top: 107px;
@@ -36,6 +34,7 @@
     font-size: 14px;
     color: #86878B;
 }
+/* <main> */
 .main {
     margin: 40px 0 107px; /*margin-top: 40px; margin-right: 0px; margin-bottom: 107px; margin-left: 0px;*/
 }
@@ -75,12 +74,14 @@
 .icon--lightning {
     background: url(../img/icon/lightning.png) no-repeat center;
 }
+/* <section> */
 .background {
     background-image: linear-gradient(to top, rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
     url(../img/background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height: 345px;
 }
 .title--section {
     color: white;
@@ -102,6 +103,7 @@
     background: transparent;
     border: 1px solid #FFFFFF;
 }
+/* <footer> */
 .footer {
     background: #000000;
 }
