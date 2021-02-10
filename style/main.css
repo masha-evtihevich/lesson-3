@@ -1,5 +1,5 @@
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 
     box-sizing: border-box;
@@ -84,13 +84,13 @@
     height: 345px;
 }
 .title--section {
-    color: white;
+    color: #ffffff;
 }
 .line--section {
-    background: white;
+    background: #ffffff;
 }
 .subtitle--section {
-    color: white;
+    color: #ffffff;
 }
 .button {
     width: 135px;
@@ -98,53 +98,61 @@
 
     font-weight: 600;
     font-size: 15px;
-    color: white;
+    color: #ffffff;
 
     background: transparent;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
 }
 /* <footer> */
 .footer {
     background: #000000;
 }
-.nav {
-    padding-top: 30px;
-    
-}
-.a {
-    height: 23px;
-    width: 30px;
-    margin-right: 12px;
 
-    background: url(../img/logos.png) no-repeat;
+
+.list-icons {
     display: inline-block;
+    width: 642px;
+    margin-top: 25px;
+
+    list-style: none; 
+}
+.item-icons {
+    display: inline;
+    margin-left: 20px;
+}
+.link-icons {
+    display: inline-block;
+    height: 46px;
+    width: 40px;
 
     text-decoration: none;
+
+    background: url(../img/social-icons.png) no-repeat;
 }
-.a--facebook {
-    background-position: 6px 0px;
+
+
+.link--facebook {
+    background-position: 21px 0px;
 }
-.a--twitter {
-    background-position: -44px 0px;
+.link--twitter {
+    background-position: -32px 0px;
 }
-.a--google {
-    background-position: -95px 0px;
+.link--google {
+    background-position: -85px 0px;
 }
-.a--pinterest {
-    background-position: -141px 0px;
+.link--pinterest {
+    background-position: -131px 0px;
 }
-.a--instagram {
-    background-position: -190px 0px;
+.link--instagram {
+    background-position: -180px 0px;
 }
-.a--rss {
-    background-position: -243px 0px;
+.link--rss {
+    background-position: -233px 0px;
 }
-.a--stumbleupon {
-    background-position: -290px 0px;
+.link--stumbleupon {
+    background-position: -280px 0px;
 }
 .copyright {
-    padding-top: 18px;
-    
     font-size: 12px;
     color: #ffffff80;
 }
